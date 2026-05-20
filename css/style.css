@@ -266,6 +266,8 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
+    .content{
+    }
     .content h3 {
         font-size: 1em;
     }
@@ -503,7 +505,11 @@ header {
     align-items: center;
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .map-list a{
+        font-size: 5px;
+    }
+}
 
 /* フッター */
 footer {
