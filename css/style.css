@@ -100,10 +100,10 @@ header {
 
 @media only screen and (max-width: 768px) {
     #top {
-        width: 400px;
+        margin: 0;
+        width: 100%;
         height: 350px;
     }
-
 }
 
 /* 日程 */
@@ -266,8 +266,7 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-    .content{
-    }
+
     .content h3 {
         font-size: 1em;
     }
@@ -429,9 +428,8 @@ header {
 
 .aquarium {
     position: absolute;
-    left: 30%;
-    top: 25%;
-    width: 13%;
+    left: 31%;
+    top: 19%;
     height: 5.5%;
     background-color: #6cc2f482;
     display: flex;
@@ -441,9 +439,8 @@ header {
 
 .pineapple {
     position: absolute;
-    left: 52%;
-    top: 34%;
-    width: 20%;
+    left: 53%;
+    top: 29%;
     height: 5.5%;
     background-color: #e8ea809c;
     display: flex;
@@ -452,9 +449,8 @@ header {
 
 .american {
     position: absolute;
-    left: 18%;
+    left: 17%;
     top: 62%;
-    width: 17%;
     height: 5.5%;
     background-color: #f3bd789c;
     display: flex;
@@ -463,9 +459,8 @@ header {
 
 .street {
     position: absolute;
-    left: 20%;
-    top: 69%;
-    width: 10%;
+    left: 18%;
+    top: 70%;
     height: 5.5%;
     background-color: #db94fe9c;
     display: flex;
@@ -474,9 +469,8 @@ header {
 
 .airport {
     position: absolute;
-    left: 18%;
-    top: 75%;
-    width: 10%;
+    left: 15%;
+    top: 78%;
     height: 5.5%;
     background-color: #ff83839c;
     display: flex;
@@ -485,9 +479,8 @@ header {
 
 .world {
     position: absolute;
-    left: 38%;
-    top: 78%;
-    width: 13%;
+    left: 37%;
+    top: 82%;
     height: 5.5%;
     background-color: #91f0749c;
     display: flex;
@@ -496,9 +489,8 @@ header {
 
 .hotel {
     position: absolute;
-    left: 37%;
-    top: 84%;
-    width: 15%;
+    left: 35%;
+    top: 88%;
     height: 5.5%;
     background-color: #fa89e29c;
     display: flex;
@@ -506,8 +498,58 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-    .map-list a{
-        font-size: 5px;
+    .map-list a {
+        font-size: 12px;
+        width: auto;
+        height: auto;
+    }
+
+    .aquarium {
+        left: 15%;
+        top: 15%;
+    }
+
+    .pineapple {
+        left: 53%;
+        top: 25%;
+    }
+
+    .american {
+        left: 38%;
+        top: 58%;
+    }
+
+    .american.shev-right::after {
+        display: none;
+    }
+
+    .american.shev-right::before {
+        font-family: "Material Symbols Outlined";
+        content: "\f591";
+        left: 1em;
+        color: rgb(24, 80, 101);
+        font-size: 1.5em;
+        margin-right: 0.3em;
+    }
+
+    .street {
+        left: 5%;
+        top: 65%;
+    }
+
+    .airport {
+        left: 3%;
+        top: 78%;
+    }
+
+    .world {
+        left: 37%;
+        top: 75%;
+    }
+
+    .hotel {
+        left: 35%;
+        top: 88%;
     }
 }
 
